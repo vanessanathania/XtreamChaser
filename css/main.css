@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	display: block;
+	background-color: #2d3436;
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display:block;
+	margin: 0 auto;
+	
+}
+
+.hmpage{
+	height: 100%;
+	width: 50px;
+	float: left;
+	}
+
+.hmpage h1{
+	color: #fff;
+	height:500%;
+	vertical-align: middle;
+	font-size: 32px;
+	font-weight: 200;
+	margin-top: 14px;
+}
+
+
+.logo{
+    width: 150px;
+    height: 70%;
+    margin-top: -40px;
+    margin-left: 300px;
+
+}
+.logo-container{
+	margin-left: 100px;
+}
+.menu{
+	color: #fff;
+	float: right;
+	margin-top: 1px;
+	height: 100%;
+	margin-right: 200px;
+	margin-top: -100px;
+	
+
+}
+
+.menu {
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+	background: #dfe6e9;
+	margin-top: -1px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5px;
+	opacity: 0;
+	transform: translateY(-10px);
+	transition: all 0.4s ease;
+
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	font-size: 100;
+
+}
+
+.menu li{
+	
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.menu li:hover{
+	background: #a5b1c2;
+}
+
+
+.menu button{
+	background: none;
+	border: none;
+	color: white;
+	font-size: 30px;
+}
+
+.menu button:hover{
+	color: #a5b1c2;
+}
+
+.menu button:focus + ul{
+	opacity: 1;
+	pointer-events: all;
+	transform: translateY(0);
+}
+
+/* Body */
+.contenttop {
+	z-index: -1;
+	opacity: 80%;
+	width: 100%;
+	position: relative;
+}
+.wptop{
+	width: 100%;
+	margin-top: -100px;
+	position: absolute;
+}
+.textop{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 300px;
+	
+}
+.textop h1{
+	align-self: center;
+	font-size: 85px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.b{
+	align-self: center;
+	font-size: 40px;
+	margin-left: 170px;
+
+}
+.a{
+	align-self: center;
+	font-size: 40px;
+	margin-left: 150px;
+}
+.outer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	background: grey;
+	margin-top: 0%;
+}
+.ourgame{
+	font-size: 60px;
+	margin-left: 40%;
+	margin-top:44.5%;
+	width: 100%;
+}
+.text{
+	background: grey;
+}
+.game{
+	margin:20px;
+}
+.contentbottom {
+	z-index: -1;
+	opacity: 80%;
+	width: 100%;
+	position: relative;
+}
+.wpbottom{
+	width: 100%;
+	margin-top: -100px;
+	position: absolute;
+}
+.textbottom{
+	position: absolute;
+	top: 220%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 300px;
+	
+}
+.textbottom h1{
+	color: white;
+	align-self: center;
+	font-size: 80px;
+	margin-left: 30px;
+	font-weight: bold;
+	margin-top: -50px;
+	font-family: sans-serif;
+}
+.d{
+	align-self: center;
+	font-size: 30px;
+	margin-left: 30px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 30px;
+
+}
+.c{
+	align-self: center;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	color: white;
+}
+/* Footer */
+.footer{
+    background-color: #2d3436;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top:260%;
+    text-align: center;
+    color: white;
+
+ 
+}
+.footer p{
+	margin-top: -3px;
+}
+.footmid{
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+.footmid img{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	
+}
+
